@@ -7,9 +7,10 @@ header{
 h2{
     font-family: fantasy;
     font-size:60px;
+    color:black
 }
 h3{
-    color:white;
+    color:black;
     font-family: fantasy;
     font-size: 40px;
 }
@@ -20,24 +21,50 @@ body{
     font-family: sans-serif;
     font-size: large;
     color:black;
+    margin:0px;
     
 }
 .page-header{
     height:50vh
+    width:100%;
 }
 .text-center {
     text-align: center;
 }
 #home{
-    background: url(../images/lisbonskyline.jpeg) center center / cover no-repeat;
+    background: url() center center / cover no-repeat;
     background-attachment: fixed;
 }
 .container{
-    width:1500px;
+    width:1400px;
     height:400px;
+}
+.navbar ul{
+    background-color:rgb(75, 75, 75);
+    list-style-type: none;
+    overflow:hidden;
+    padding:0;
+    margin:0;
+}
+.navbar a{
+    color:white;
+    text-decoration:none;
+    display:block;
+    text-align:center;
+    padding:15px;
+}
+.navbar a:hover{
+background-color: rgb(36, 36, 36);
+}
+.navbar li{
+    float:left;
+
 }
 
 
-   
 
-  
+  .bh{
+    height:600px;
+    width:100%;
+    background-image:url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.donaldyip.com%2Fevening-in-lisbon-portugal%2F&psig=AOvVaw1SQgBh_igntPYsgkmhjp_F&ust=1710073691264000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPjns4mX54QDFQAAAAAdAAAAABAD');
+  }
