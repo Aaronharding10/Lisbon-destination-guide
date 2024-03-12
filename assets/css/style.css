@@ -20,9 +20,9 @@ h3{
     font-size: 40px;
    
 }
-.h3why{
+#h3why{
 
-    font-family: babas neue;
+    font-family: sans-serif;
 
 }
 h4{
@@ -30,6 +30,7 @@ h4{
     font-size: 30px;
     font-family:cursive;
     text-align:center;
+    font-size: xx-large;
 }
 .page-header{
     height:50vh;
@@ -96,4 +97,39 @@ p{
     font-family: verdana;
 }
 
-  
+  #alfama{
+    
+    width:700px;
+    height:500px;
+    display:block;
+    margin:auto;
+
+  }
+  #baixa{
+    margin:auto;
+    display:block;
+    width:700px;
+    height:500px;
+   
+
+
+  }
+  #bairro{
+    width:700px;
+    margin:auto;
+    display: block;
+
+  }
+  #belem{
+    margin:auto;
+    display:block;
+    width:700px;
+    height:500px;
+
+  }
+  .home2{
+    background-color: azure;
+  }
+  .footer{
+    background-color: rgb(203, 146, 155);
+  }
