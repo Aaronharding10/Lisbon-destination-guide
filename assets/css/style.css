@@ -143,37 +143,12 @@ p{
     background-color: azure;
   }
   
-  #benfica{
-    margin:auto;
-    display:block;
-    height:400px;
-    width:600px;
-
-  }
-  #fado{
-    margin:auto;
-    display:block;
-    width:600px;
-    height:400px;
-  }
-  #tower{
-    margin:auto;
-    display:block;
-    height:400px;
-    width:600px;
-  }
-  #jeronimos{
-    margin:auto;
-    display:block;
-    height:400px;
-    width:600px;
-  }
-  #elevador{
-    margin:auto;
-    display:block;
-    height:400px;
-    width:600px;
-  }
+ 
+  
+  
+  
+  
+ 
   .taste
   {
     background-image:url(../images/pastels.jpeg);
@@ -210,10 +185,257 @@ p{
     padding-top:100px;
     padding-bottom:100px;
   }
+.benContainer{
+  margin:150px auto;
+  width:70%;
+  text-align: center;
 
-  
+}
+.benContent {
+  display:flex;
+}
+.benImage {
+ flex: 0 0 auto;
+ max-width:320;
+ margin-right: 15px;
+}
+.benText {
+flex:1; 
+}
+.benImage img {
+  width:500px;
+  height:350px;
+  border:3px solid black;
+  border-radius: 10px;
+}
+.benText p{
+  font-size:20px
+}
+.h4{
+  font-size: 40px;
+}
 
-   
-
-
-  
+.fadoContainer{
+  margin:150px auto;
+  width:70%;
+  text-align: center;
+}
+.fadoContent{
+  display:flex;
+}
+.fadoImage{
+  flex: 0 0 auto;
+  max-width:320;
+  margin-right: 15px;
+}
+.fadoText{
+  flex:1;
+}
+.fadoImage img{
+  width:500px;
+  height:440px;
+  border:3px solid black;
+  border-radius: 10px;
+}
+.fadoText p{
+  font-size:20px
+}
+.h4{
+  font-size: 40px;
+}
+.belContainer{
+  margin:150px auto;
+  width:70%;
+  text-align: center;
+}
+.belContent{
+  display:flex;
+}
+.belImage{
+  flex: 0 0 auto;
+  max-width:320;
+  margin-right: 15px;
+}
+.belText{
+  flex:1;
+}
+.belImage img{
+  width:500px;
+  height:350px;
+  border:3px solid black;
+  border-radius: 10px;
+}
+.belText p{
+  font-size:20px
+}
+.h4{
+  font-size: 40px;
+}
+.jerContainer{
+  margin:150px auto;
+  width:70%;
+  text-align: center;
+}
+.jerContent{
+  display:flex;
+}
+.jerImage{
+  flex: 0 0 auto;
+  max-width:320;
+  margin-right: 15px;
+}
+.jerText{
+  flex:1;
+}
+.jerImage img{
+  width:500px;
+  height:400px;
+  border:3px solid black;
+  border-radius: 10px;
+}
+.jerText p{
+  font-size:20px
+}
+h4{
+  font-size: 40px;
+}
+.gloriaContainer{
+  margin:150px auto;
+  width:70%;
+  text-align: center;
+}
+.gloriaContent{
+  display:flex;
+}
+.gloriaImage{
+  flex: 0 0 auto;
+  max-width:320;
+  margin-right: 15px;
+}
+.gloriaText{
+  flex:1;
+}
+.gloriaImage img{
+  width:500px;
+  height:400px;
+  border:3px solid black;
+  border-radius: 10px;
+}
+.gloriaText p{
+  font-size:20px
+}
+.h4{
+  font-size: 40px;
+}
+.timeContainer{
+  margin:150px auto;
+  width:70%;
+  text-align: center;
+}
+.timeContent{
+  display:flex;
+}
+.timeImage{
+  flex: 0 0 auto;
+  max-width:320;
+  margin-right: 15px;
+}
+.timeText{
+  flex:1;
+}
+.timeImage img{
+  width:500px;
+  height:400px;
+  border:3px solid black;
+  border-radius: 10px;
+}
+.timeText p{
+  font-size:20px
+}
+.h4{
+  font-size: 40px;
+}
+.mercadoContainer{
+  margin:150px auto;
+  width:70%;
+  text-align: center;
+}
+.mercadoContent{
+  display:flex;
+}
+.mercaodoImage{
+  flex: 0 0 auto;
+  max-width:320;
+  margin-right: 15px;
+}
+.mercadoText{
+  flex:1;
+}
+.mercadoImage img{
+  width:500px;
+  height:400px;
+  border:3px solid black;
+  border-radius: 10px;
+}
+.mercadoText p{
+  font-size:20px
+}
+.h4{
+  font-size: 40px;
+}
+.tapasContainer{
+  margin:150px auto;
+  width:70%;
+  text-align: center;
+}
+.tapasContent{
+  display:flex;
+}
+.tapasImage{
+  flex: 0 0 auto;
+  max-width:320;
+  margin-right: 15px;
+}
+.tapasText{
+  flex:1;
+}
+.tapasImage img{
+  width:500px;
+  height:400px;
+  border:3px solid black;
+  border-radius: 10px;
+}
+.tapasText p{
+  font-size:20px
+}
+.h4{
+  font-size: 40px;
+}
+.wineContainer{
+  margin:150px auto;
+  width:70%;
+  text-align: center;
+}
+.wineContent{
+  display:flex;
+}
+.wineImage{
+  flex: 0 0 auto;
+  max-width:320;
+  margin-right: 15px;
+}
+.wineText{
+  flex:1;
+}
+.wineImage img{
+  width:500px;
+  height:400px;
+  border:3px solid black;
+  border-radius: 10px;
+}
+.wineText p{
+  font-size:20px
+}
+.h4{
+  font-size: 40px;
+}
