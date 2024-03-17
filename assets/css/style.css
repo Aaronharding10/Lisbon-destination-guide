@@ -49,7 +49,7 @@ h4{
 }
 
 .navbar ul{
-    background-color:rgb(194, 158, 190);
+    background-color:rgb(173, 114, 166);
     list-style-type: none;
     flex-direction: row;
     justify-content: space-between;
@@ -57,9 +57,10 @@ h4{
     align-items: center;
     height:60px;
     padding:1em;
+    margin: 0;
 }
 .navbar a{
-    color:rgb(0, 0, 0);
+    color:rgb(251, 251, 251);
     text-decoration:none;
     display:inline-block;
     text-align:center;
@@ -70,7 +71,7 @@ h4{
    
 }
 .navbar a:hover{
-background-color: rgb(205, 139, 205);
+background-color: rgb(194, 135, 194);
 }
 
 .navbar ul li:last-child {
@@ -90,43 +91,150 @@ p{
     font-family: verdana;
 
 }
+.alfamaContainer{
+  margin:150px auto;
+  width:70%;
+  text-align: center;
+}
 
-  #alfama{
-    
-    width:700px;
-    height:500px;
-    display:block;
-    margin:auto;
+.alfamaContent {
+  display:flex;
+}
 
-  }
-  #baixa{
-    margin:auto;
-    display:block;
-    width:700px;
-    height:500px;
-  }
+.alfamaImage {
+ flex: 0 0 auto;
+ max-width:320;
+ margin-right: 15px;
+}
+.alfamaText {
+flex:1; 
+}
+.alfamaImage img {
+  width:550px;
+  height:450px;
+  border:3px solid black;
+  border-radius: 10px;
+}
+.alfamaText p{
+  font-size:18px;
+}
+.h4{
+  font-size: 40px;
+}
+.bairroContainer{
+  margin:150px auto;
+  width:70%;
+  text-align: center;
+}
+.bairroContent{
+  display:flex;
+}
 
-  #bairro{
-    width:700px;
-    margin:auto;
-    display: block;
-
-  }
-  #belem{
-    margin:auto;
-    display:block;
-    width:700px;
-    height:500px;
-
-  }
-  #chiado{
-    width:700px;
-    margin:auto;
-    display:block;
-  }
-  .home2{
-    background-color: azure;
-  }
+.bairroImage img{
+  width:550px;
+  height:500px;
+  border:3px solid black;
+  border-radius: 10px;
+}
+.bairroText{
+  flex:1; 
+  margin:0;
+}
+.bairroImage{
+  flex: 0 0 auto;
+  max-width:320;
+  margin-right: 15px;
+}
+.bairroText p{
+  font-size: 18px;
+}
+.h4{
+  font-size: 40px;
+}
+.belemContainer{
+  margin:150px auto;
+  width:70%;
+  text-align: center;
+}
+.belemContent{
+  display:flex;
+}
+.belemImage img{
+  width:550px;
+  height:430px;
+  border:3px solid black;
+  border-radius: 10px;
+}
+.belemText{
+  flex:1;
+}
+.belemImage{
+  flex: 0 0 auto;
+  max-width:320;
+  margin-right: 15px;
+}
+.belemText p{
+  font-size: 18px;
+}
+.h4{
+  font-size: 40px;
+}
+.baixaContainer{
+  margin:150px auto;
+  width:70%;
+  text-align: center;
+}
+.baixaContent{
+  display:flex;
+}
+.baixaImage img{
+  width:550px;
+  height:430px;
+  border:3px solid black;
+  border-radius: 10px;
+}
+.baixaText{
+  flex:1;
+}
+.baixaImage{
+  flex: 0 0 auto;
+  max-width:320;
+  margin-right: 15px;
+}
+.baixaText p{
+  font-size: 18px;
+}
+.h4{
+  font-size: 40px;
+}
+.chiadoContainer{
+  margin:150px auto;
+  width:70%;
+  text-align: center;
+}
+.chiadoContent{
+ display:flex; 
+}
+.chiadoImage img{
+  width:550px;
+  height:430px;
+  border:3px solid black;
+  border-radius: 10px;
+}
+.chaidoText{
+  flex:1;
+}
+.chaidoImage{
+  flex: 0 0 auto;
+  max-width:320;
+  margin-right: 10px;
+}
+.chaidoText p{
+  font-size: 18px;
+}
+.h4{
+  font-size: 40px;
+}
   
   .Seeheader{
     background-image:url(../images/fado.jpeg);
@@ -139,16 +247,7 @@ p{
     padding-bottom:100px;
 
   }
-  .See{
-    background-color: azure;
-  }
-  
- 
-  
-  
-  
-  
- 
+
   .taste
   {
     background-image:url(../images/pastels.jpeg);
@@ -160,20 +259,9 @@ p{
     padding-top:100px;
     padding-bottom:100px;
   }
-  footer{
-    display:flex;
-    justify-content: space-evenly;
-    padding:20px;
-  }
-  .goingon{
-    background-image: url(../images/lisbon\ events.png);
-    height:300;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-blend-mode:normal;
-    padding-top:100px;
-    padding-bottom:100px;
+  
+  
+ 
   }
   .getaround{
     background-image: url(../images/lisbontram2.webp);
@@ -209,7 +297,7 @@ flex:1;
   border-radius: 10px;
 }
 .benText p{
-  font-size:20px
+  font-size:18px;
 }
 .h4{
   font-size: 40px;
@@ -238,7 +326,7 @@ flex:1;
   border-radius: 10px;
 }
 .fadoText p{
-  font-size:20px
+  font-size:18px;
 }
 .h4{
   font-size: 40px;
@@ -266,7 +354,7 @@ flex:1;
   border-radius: 10px;
 }
 .belText p{
-  font-size:20px
+  font-size:18px;
 }
 .h4{
   font-size: 40px;
@@ -294,7 +382,7 @@ flex:1;
   border-radius: 10px;
 }
 .jerText p{
-  font-size:20px
+  font-size:18px;
 }
 h4{
   font-size: 40px;
@@ -316,21 +404,23 @@ h4{
   flex:1;
 }
 .gloriaImage img{
-  width:500px;
+  width:600px;
   height:400px;
   border:3px solid black;
   border-radius: 10px;
 }
 .gloriaText p{
-  font-size:20px
+  font-size:18px;
 }
 .h4{
   font-size: 40px;
+  margin:0;
 }
 .timeContainer{
   margin:150px auto;
   width:70%;
   text-align: center;
+
 }
 .timeContent{
   display:flex;
@@ -344,13 +434,13 @@ h4{
   flex:1;
 }
 .timeImage img{
-  width:500px;
-  height:400px;
+  width:600px;
+  height:350px;
   border:3px solid black;
   border-radius: 10px;
 }
 .timeText p{
-  font-size:20px
+  font-size:16px;
 }
 .h4{
   font-size: 40px;
@@ -372,13 +462,15 @@ h4{
   flex:1;
 }
 .mercadoImage img{
-  width:500px;
+  width:600px;
   height:400px;
   border:3px solid black;
   border-radius: 10px;
 }
 .mercadoText p{
-  font-size:20px
+  font-size: 16px;
+  margin:10px;
+  
 }
 .h4{
   font-size: 40px;
@@ -400,13 +492,13 @@ h4{
   flex:1;
 }
 .tapasImage img{
-  width:500px;
+  width:600px;
   height:400px;
   border:3px solid black;
   border-radius: 10px;
 }
 .tapasText p{
-  font-size:20px
+  font-size:16px;
 }
 .h4{
   font-size: 40px;
@@ -428,14 +520,38 @@ h4{
   flex:1;
 }
 .wineImage img{
-  width:500px;
+  width:600px;
   height:400px;
   border:3px solid black;
   border-radius: 10px;
 }
 .wineText p{
-  font-size:20px
+  font-size: 16px;
 }
 .h4{
   font-size: 40px;
 }
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery li {
+  height: 40vh;
+  flex-grow: 1;
+}
+
+.gallery li img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+.gallery li img:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+
