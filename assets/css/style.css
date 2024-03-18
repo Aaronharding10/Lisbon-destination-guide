@@ -422,6 +422,35 @@ h4{
   font-size: 40px;
   margin:0;
 }
+.pasteisContainer{
+  margin:150px auto;
+  width:70%;
+  text-align: center;
+}
+.pasteisContent{
+  display:flex;
+}
+.pasteisImage{
+  flex: 0 0 auto;
+  max-width:320;
+  margin-right: 15px;
+}
+.pasteisText{
+  flex:1;
+}
+.pasteisImage img{
+  width:600px;
+  height:350px;
+  border:3px solid black;
+  border-radius: 50px 50px 50px 50px;
+}
+.pasteisText p{
+  font-size: 20px;
+}
+.h4{
+  font-size: 40px;
+}
+
 .timeContainer{
   margin:150px auto;
   width:70%;
@@ -639,14 +668,14 @@ h4{
 
 
 .footer{ 
-  position: relative;
-  bottom: 0;
-  height: 100px;
-  text-align: center;
-  width: 100%;
-  padding-top: 50px;
+  display:flex;
   background-color: darkslategray;
-}
-.footerText{
+  justify-content:space-evenly;
+  flex-direction:row;
   color:white;
+ 
+}
+.contactText{
+  list-style-type:none;
+  font-size:18px;
 }
