@@ -89,8 +89,6 @@ background-color: rgb(173, 114, 166);
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode:normal;
-    padding-top:100px;
-    padding-bottom:100px;
 }
 .whyLisbon p{
   font-size: 20px;
@@ -435,6 +433,9 @@ h4{
   font-size: 40px;
   margin:0;
 }
+/*taste styling*/
+
+
 /*pasteis flex styling*/
 
 .pasteisContainer{
@@ -587,7 +588,7 @@ h4{
 .h4{
   font-size: 40px;
 }
-/* see gallery*/
+/* see&do gallery*/
 
 .galleryContainer{
   padding: 40px 5%;
@@ -645,47 +646,7 @@ h4{
 }
 /*taste gallery */
 
-.tasteGallery{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-}
-.tasteGallery > li{
-  flex-basis: 350px; /*width: 350px;*/
-  position: relative;
-  cursor: pointer;
-}
-.tasteGallery::after{
-  content: "";
-  flex-basis: 350px;
-}
-.tasteGallery li img{
-  object-fit: cover;
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
-  border-radius: 5px;
-}
-.overlay{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgba(57, 57, 57, 0.502);
-  top: 0;
-  left: 0;
-  transform: scale(0);
-  transition: all 0.2s 0.1s ease-in-out;
-  color: #fff;
-  border-radius: 5px;
-  /* center overlay text */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.tasteGallery li:hover .overlay {
-  transform: scale(1);
-}
+
 /*footer styling*/
 
 .footer{ 
