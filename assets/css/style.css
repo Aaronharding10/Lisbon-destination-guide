@@ -27,7 +27,7 @@ h3{
 
 #h3why{
 
-    font-family: sans-serif;
+    font-family: fantasy;
     color:rgb(13, 13, 13);
 
 }
@@ -49,8 +49,7 @@ h4{
 .container{
     width:900px;
     height:500px;
-    margin:auto;
-    
+    margin:auto; 
 }
 
 .navbar ul{
@@ -64,6 +63,8 @@ h4{
     padding:1em;
     margin: 0;
 }
+/*navbar styling*/
+
 .navbar a{
     color:rgb(251, 251, 251);
     text-decoration:none;
@@ -79,6 +80,7 @@ h4{
 background-color: rgb(173, 114, 166);
 }
 
+/*homepage styling*/
 
 .imgheader{
     background-image:url(../images/lisbonnight.jpeg); 
@@ -94,6 +96,7 @@ background-color: rgb(173, 114, 166);
   font-size: 20px;
 }
 
+/* neighbourhood flex styling */
 
 .alfamaContainer{
   margin:150px auto;
@@ -237,13 +240,13 @@ flex:1;
   margin-right: 10px;
 }
 .chiadoText p{
-  font-size: 20px;
-  
+  font-size: 20px; 
 }
 
 .h4{
   font-size: 40px;
 }
+  /*see&do header*/
   
   .Seeheader{
     background-image:url(../images/fado.jpeg);
@@ -256,9 +259,9 @@ flex:1;
     padding-bottom:100px;
 
   }
+/*taste header*/
 
-  .taste
-  {
+  .taste {
     background-image:url(../images/pastels.jpeg);
     height:300px;
     background-repeat: no-repeat;
@@ -268,6 +271,8 @@ flex:1;
     padding-top:100px;
     padding-bottom:100px;
   }
+  /*contact header*/
+
 .contactHeader{
   background-image:url(../images/contactheader.jpeg);
     height:300px;
@@ -278,7 +283,8 @@ flex:1;
     padding-top:100px;
     padding-bottom:100px;
 }
-  
+  /*benfica flex styling*/
+
 .benContainer{
   margin:150px auto;
   width:70%;
@@ -308,6 +314,7 @@ flex:1;
 .h4{
   font-size: 40px;
 }
+/*fado flex styling*/
 
 .fadoContainer{
   margin:150px auto;
@@ -337,6 +344,8 @@ flex:1;
 .h4{
   font-size: 40px;
 }
+/*belem flex styling*/
+
 .belContainer{
   margin:150px auto;
   width:70%;
@@ -365,6 +374,8 @@ flex:1;
 .h4{
   font-size: 40px;
 }
+/*jeronimo flex styling*/
+
 .jerContainer{
   margin:150px auto;
   width:70%;
@@ -393,6 +404,8 @@ flex:1;
 h4{
   font-size: 40px;
 }
+/*gloria elevador flex styling*/
+
 .gloriaContainer{
   margin:150px auto;
   width:70%;
@@ -422,6 +435,8 @@ h4{
   font-size: 40px;
   margin:0;
 }
+/*pasteis flex styling*/
+
 .pasteisContainer{
   margin:150px auto;
   width:70%;
@@ -450,6 +465,8 @@ h4{
 .h4{
   font-size: 40px;
 }
+
+/*timeout flex styling*/
 
 .timeContainer{
   margin:150px auto;
@@ -480,6 +497,7 @@ h4{
 .h4{
   font-size: 40px;
 }
+/*mercado flexbox styling*/
 .mercadoContainer{
   margin:150px auto;
   width:70%;
@@ -510,6 +528,7 @@ h4{
 .h4{
   font-size: 40px;
 }
+/*tapas flex styling*/
 .tapasContainer{
   margin:150px auto;
   width:70%;
@@ -538,6 +557,8 @@ h4{
 .h4{
   font-size: 40px;
 }
+/*wine flex styling*/
+
 .wineContainer{
   margin:150px auto;
   width:70%;
@@ -566,6 +587,8 @@ h4{
 .h4{
   font-size: 40px;
 }
+/* see gallery*/
+
 .galleryContainer{
   padding: 40px 5%;
 }
@@ -620,6 +643,8 @@ h4{
 .ul{
   list-style: none;  
 }
+/*taste gallery */
+
 .tasteGallery{
   display: flex;
   flex-wrap: wrap;
@@ -661,11 +686,7 @@ h4{
 .tasteGallery li:hover .overlay {
   transform: scale(1);
 }
-
-
-
-
-
+/*footer styling*/
 
 .footer{ 
   display:flex;
@@ -675,7 +696,47 @@ h4{
   color:white;
  
 }
+/*contact page styling */
+
 .contactText{
   list-style-type:none;
   font-size:18px;
+  color:white;
+}
+.followText{
+  color:white;
+}
+.contactHome p{
+  font-size: 20px;
+}
+
+.message-box input{
+  width:30%;
+  height:50px;
+  padding:0 20px;
+  margin-bottom:15px;
+  border-radius:5px;
+  border: 1px solid black;
+}
+.message-box textarea{
+  width:30%;
+  height:150px;
+  padding:15px 20px;
+  margin-bottom:10px;
+  border-radius: 5px;
+  border:1px solid black;
+}
+.message-box input:focus{
+border:1px solid black;
+outline:0;
+}
+.message-box textarea:focus{
+  border:1px solid black;
+  outline:0;
+}
+.message-box button{
+  border:0;
+  padding:10px 30px;
+ font-size:18px;
+ border-radius:5px;
 }
