@@ -23,7 +23,7 @@ h2{
 h3{
     color:rgb(15, 14, 14);
     font-family:fantasy;
-    font-size:25px;
+    font-size:28px;
     text-align:center;   
 }
 
@@ -96,8 +96,8 @@ background-color: rgb(173, 114, 166);
 /* neighbourhood flex styling */
 
 .alfamaContainer{
-  margin:150px auto;
-  width:85%;
+  margin: 10px auto;
+  width: 90%;
   text-align: center;
 }
 
@@ -107,28 +107,27 @@ background-color: rgb(173, 114, 166);
 
 .alfamaImage {
   flex: 0 0 auto;
-  max-width:320;
+  max-width: 320;
   margin-right: 15px;
 }
 .alfamaText {
 flex:1; 
 }
 .alfamaImage img {
-  width:550px;
-  height:450px;
+  width:400px;
+  height:300px;
   border:3px solid black;
-  border-radius: 50px 50px 50px 50px;
+  border-radius: 20px 20px 20px 20px;
 }
 .alfamaText p{
-  font-size: 20px;
-}
+  font-size: 18px;
 
 .h4{
-  font-size: 40px;
+  font-size: 25px;
 }
 .bairroContainer{
-  margin:150px auto;
-  width:85%;
+  margin:10px auto;
+  width:90%;
   text-align: center;
 }
 .bairroContent{
@@ -136,112 +135,112 @@ flex:1;
 }
 
 .bairroImage img{
-  width:550px;
-  height:500px;
+  width:400px;
+  height:300px;
   border:3px solid black;
-  border-radius: 50px 50px 50px 50px;
+  border-radius: 20px 20px 20px 20px;
 }
 .bairroText{
   flex:1; 
-  margin:0;
+ 
 }
 .bairroImage{
   flex: 0 0 auto;
-  max-width:320;
+  max-width: 320;
   margin-right: 15px;
 }
 .bairroText p{
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .h4{
-  font-size: 40px;
+  font-size: 25px;
 }
 .belemContainer{
-  margin:150px auto;
-  width:85%;
+  margin:10px auto;
+  width:90%;
   text-align: center;
 }
 .belemContent{
   display:flex;
 }
 .belemImage img{
-  width:550px;
-  height:430px;
+  width:400px;
+  height:300px;
   border:3px solid black;
-  border-radius: 50px 50px 50px 50px;
+  border-radius: 20px 20px 20px 20px;
 }
 .belemText{
   flex:1;
 }
 .belemImage{
   flex: 0 0 auto;
-  max-width:320;
+  max-width: 320;
   margin-right: 15px;
 }
 .belemText p{
-  font-size: 20px;
+  font-size: 18px;
 }
 .h4{
-  font-size: 40px;
+  font-size: 25px;
 }
 .baixaContainer{
-  margin:150px auto;
-  width:85%;
+  margin:10px auto;
+  width:90%;
   text-align: center;
 }
 .baixaContent{
   display:flex;
 }
 .baixaImage img{
-  width:550px;
-  height:430px;
+  width:400px;
+  height:300px;
   border:3px solid black;
-  border-radius: 50px 50px 50px 50px;
+  border-radius: 20px 20px 20px 20px;
 }
 .baixaText{
   flex:1;
 }
 .baixaImage{
   flex: 0 0 auto;
-  max-width:320;
+  max-width: 320;
   margin-right: 15px;
 }
 .baixaText p{
-  font-size: 20px; 
+  font-size: 18px; 
 }
 
 .h4{
-  font-size: 40px;
+  font-size: 25px;
 }
 .chiadoContainer{
-  margin:150px auto;
-  width:85%;
+  margin:10px auto;
+  width:90%;
   text-align: center;
 }
 .chiadoContent{
  display:flex; 
 }
 .chiadoImage img{
-  width:550px;
-  height:430px;
+  width:400px;
+  height:300px;
   border:3px solid black;
-  border-radius: 50px 50px 50px 50px;
+  border-radius: 20px 20px 20px 20px;
 }
 .chaidoText{
   flex:1;
 }
 .chiadoImage{
   flex: 0 0 auto;
-  max-width:320;
-  margin-right: 10px;
+  max-width: 320;
+  margin-right: 15px;
 }
 .chiadoText p{
-  font-size: 20px; 
+  font-size: 18px; 
 }
 
 .h4{
-  font-size: 40px;
+  font-size: 25px;
 }
   /*see&do header*/
   
@@ -252,8 +251,8 @@ flex:1;
     background-size: cover;
     background-attachment: fixed;
     background-blend-mode:normal;
-    padding-top:100px;
-    padding-bottom:100px;
+    padding-top:10px;
+    padding-bottom:10px;
 
   }
 /*taste header*/
