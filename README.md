@@ -10,30 +10,41 @@ There are also links to the social media platorms, an address, email address and
 
 [View visit Lisbon live project here] (https://github.com/Aaronharding10/Lisbon-destination-guide)
 - - -
-##Table of contents
 
-### [Design]
 
-###[user experience ux]
-###[Features]
+## Table of contents
 
-### [Technologies Used]
 
-### [Frameworks, Libraries & Programs Used]
+### [User Experience (UX)] (#user-experience-ux-1)
 
-### [Testing]
+### [Features](#features)
+* Existing features
+
+### [Features Left to Implement] (#features-left-to-implement-1)
+
+### [Design] (#design-1)
+
+### [Technologies Used] (#technologies-used-1)
+
+### [Frameworks, Libraries & Programs Used] (#frameworks-libraries--programs-used-1)
+
+### [Testing] (#testing-1)
 * [Validation Results]
 * [Manual Testing]
 * [Lighthouse Report]
 
-### [Deployment and local development]
+### [Deployment and local development] (#deployment-and-local-development-1)
 * [GitHub Pages]
 * [Forking the GitHub Repository]
-### [Credits]
-### [Acknowledgements]
+
+### [Credits] (#credits-1)
+
+### [Acknowledgements] (#acknowledgements-1)
+
+---
 
 
-##User Experience(UX)
+## User Experience (UX)
 
 This website is meant to attract people who are looking to visit and explore Lisbon City. 
 
@@ -41,7 +52,7 @@ There is a clear navigation detailing the main areas of lisbon, its main attract
 
 Users can reach out to obtain further information about the city and the main elements to discover. 
 
-##Design
+## Design
 
 * Colour scheme
  *Primary colours used on the website: ![colour scheme]
@@ -52,17 +63,18 @@ Users can reach out to obtain further information about the city and the main el
  * Wireframes
   *Mainly a pen and notebook were used to structure the site. 
 
-##Features
+## Features
 
 *This website is targeting people who would like to visit and explore Lisbon city. 
 *When visiting the website they can view its main attractions, foods & drink and also reach out for further information via the "contact" page.
 *Responsive on all devices.
 
-##Existing features
+### Existing Features
+
 *Navigation bar
-   *It is featured and fixed on all 4 pages.
-   *It is identical in design and functionality between all 4 pages. 
-   *Allows easy navigation throughout the site.
+    *It is featured and fixed on all 4 pages.
+    *It is identical in design and functionality between all 4 pages. 
+    *Allows easy navigation throughout the site.
 
 ![navigation](assets/images/navbar.jpg)
 
@@ -73,31 +85,31 @@ Users can reach out to obtain further information about the city and the main el
   *The Taste Lisbon page has a background image of the famous "Pasteis de nata" pastries and a heading of "Taste Lisbon".
   *The contact page has a background image of the "25 the Abril bridge" and a heading of "Contact". 
 
-![Main heading](
+![Main heading](assets/images/navbar.jpg)
 
-)
+
 *Section one, Visit lisbon.
    *This section breaks down the main areas of Lisbon and gives the user a better understanding of where they would like to explore.
 
-![Visit lisbon]()   
+![Visit lisbon](assets/images/mainheader.jpeg)   
 
 *Section two, See & Do.
   *This section lists the most famous attractions and sights and details the reason for visiting each. 
   *It also consists of a gallery below the attractions with supporting images to each which is valuable as it gives the user further insight to each attraction.
 
-![See & Do]()
+![See & Do](assets/images/seeheader.jpeg)
 
 *Section three, Taste Lisbon
   *This section outlines the best places to visit for food and drink lovers and also the food and drink items unique to Lisbon.
   *There is also a gallery below to further guide and support the user. 
 
-![Taste Lisbon]()
+![Taste Lisbon](assets/images/tasteheader.jpeg)
 
 *Section four, Contact.
   *The contact section allows the user to reach out for further information.
   *It also lists the address, email address and phone number for the companyn for further information and support. 
 
-![Contact]()  
+![Contact](assets/images/contacthead.jpeg)  
 
 *Footer
    *Contact info such as Address, Email address and phone number.
@@ -106,15 +118,15 @@ Users can reach out to obtain further information about the city and the main el
 ![footer]()
 
 
-##Features left to implement.
+## Features Left to Implement
    *Improved gallary with additional images.   
 
+## Technologies Used
 
-##Technologies used
    * [HTML5](https://en.wikipedia.org/wiki/HTML5)
    * [CSS3](https://en.wikipedia.org/wiki/CSS)
 
-##Frameworks, libraries and programmes used. 
+## Frameworks, Libraries & Programs Used
 
  * [Gitpod](https://www.gitpod.io/)
     * To write the code.
@@ -131,3 +143,125 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 
  * [W3C Markup Validtor](https://validator.w3.org/)
  * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)    
+
+
+### Lighthouse Report
+
+#### Mobile analysis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### Desktop analysis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### GitHub Pages
+
+
+
+
+
+
+
+
+
+### Forking the GitHub Repository
+
+
+
+
+
+### Local Clone
+
+
+
+
+
+
+## Credits
+
+
+
+### Content
+
+
+
+
+### Media 
+
+
+
+
+
+## Acknowledgements
+
+
+
+
+
+[def]: assets/images/contacthead.jpeg
