@@ -21,7 +21,7 @@ There are also links to the social media platorms, an address, email address and
 
 ### [Features Left to Implement](#features-left-to-implement)
 
-### [Design](#design-1)
+### [Design](#design)
 
 ### [Technologies Used](#technologies-used)
 
