@@ -62,9 +62,10 @@ Users can reach out to obtain further information about the city and the main el
 
 ## Features
 
-*This website is targeting people who would like to visit and explore Lisbon city. 
-*When visiting the website they can view its main attractions, foods & drink and also reach out for further information via the "contact" page.
-*Responsive on all devices.
+* This website is targeting people who would like to visit and explore Lisbon city. 
+* When visiting the website they can view its main attractions, foods & drink and also reach out for further information via the "contact" page.
+* Responsive on all device sizes.
+
 
 ### Existing Features
 
