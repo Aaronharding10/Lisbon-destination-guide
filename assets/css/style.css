@@ -21,9 +21,9 @@ h2{
     color:white;
 }
 h3{
-    color:rgb(15, 14, 14)6, 16, 16);
-    font-family:sans-serif;
-    font-size:40px;
+    color:rgb(15, 14, 14);
+    font-family:fantasy;
+    font-size:36px;
     text-align:center;   
 }
 
@@ -62,7 +62,7 @@ h4{
     height:60px;
     padding:1em;
     margin: 0;
-    font-size: 20px;
+    font-size: 16px;
 }
 /*navbar styling*/
 
@@ -110,9 +110,9 @@ background-color: rgb(173, 114, 166);
 }
 
 .alfamaImage {
- flex: 0 0 auto;
- max-width:320;
- margin-right: 15px;
+  flex: 0 0 auto;
+  max-width:320;
+  margin-right: 15px;
 }
 .alfamaText {
 flex:1; 
@@ -718,4 +718,15 @@ form{
   border:none;
   cursor:pointer;
   background-color:rgb(180, 213, 235)
+}
+
+/*media queries*/
+/*for screens 1200px and down*/
+
+@media screen and (max-width: 1200px) {
+ #home{
+  
+ }
+
+  
 }
