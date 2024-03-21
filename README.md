@@ -84,7 +84,6 @@ Users can reach out to obtain further information about the city and the main el
         *  The Taste Lisbon page has a background image of the famous "Pasteis de nata" pastries and a heading of "Taste Lisbon".
         *  The contact page has a background image of the "25 the Abril bridge" and a heading of "Contact".
         
-![Main heading](assets/images/navbar.jpg)
 
 
 * Section one, Visit Lisbon
