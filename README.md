@@ -53,8 +53,6 @@ Users can reach out to obtain further information about the city and the main el
 
 ## Design
 
-* Colour scheme
- *Primary colours used on the website: ![colour scheme]
 
 * Typography
  *Fantasy font and sens-serif are the 2 main fonts used throughout the site with the former mainy being used for headings and sub headings. 
