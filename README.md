@@ -231,7 +231,7 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 <summary>Contact page
 </summary>
 
-! [contact lighthouse report](assets/images/desktop-contact-lighthouse.jpeg)
+![contact lighthouse report](assets/images/desktop-contact-lighthouse.jpeg)
 </details>
 
 
