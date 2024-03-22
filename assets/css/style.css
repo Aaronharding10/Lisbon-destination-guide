@@ -853,98 +853,16 @@ navbar li{
 }
 
 @media screen and (max-width: 470px){
-.pasteisContainer p{
-  font-size: 12px;
-}
 
-.pasteisImage img{
-  max-width:100%;
-}
-.timeContainer p{
-  font-size: 12px;
-}
-.timeImage img{
-  max-width: 100%;
-}
-.mercadoContainer p{
-  font-size: 12px;
-}
-.mercadoImage img{
-  max-width: 100%;
-}
-.wineImage img{
-  max-width:100%;
-}
-.wineContainer p{
-  font-size: 12px;
-}
-.tapasContainer p{
-font-size: 12px;;
-}
-.tapasImage img{
-  max-width: 100%;
-}
-.alfamaContainer p{
-  font-size: 12px;
-}
-.alfamaImage img{
-  max-width: 100%;
-}
-.bairroContainer p{
-  font-size: 12px;
-}
-.bairroImage img{
-  max-width: 100%;
-}
-.belemContainer p{
-  font-size: 12px;
-}
-.belemImage img{
-  max-width: 100%;
-}
-.baixaContainer p{
-  font-size: 12px;
-}
-.baixaImage img{
-  max-width: 100%;
-}
-.chiadoContainer p{
-  font-size:12px;
-}
-.chiadoImage img{
-  max-width:100%
-}
-.benContainer p{
-  font-size:12px;
-}
-.benImage img{
-  max-width: 100%;
-}
-.fadoContainer p{
-  font-size: 12px;
-}
-.fadoImage img{
-  max-width:100%
-}
-.belContainer p{
-  font-size: 12px;
-}
-.belImage img{
-  max width:100%;
-}
-.jerContainer p{
-  font-size: 12px;
-}
-.jerImage img{
-  max-width: 100%;
-}
-.gloriaContainer p{
-  font-size: 12px;
-}
-.gloriaImage img{
-  max-width: 100%;
-}
 
 .navbar li{
   justify-content: start;
 }
+.mediaOne p{
+  font-size: 12px;
+}
+.mediaTwo img{
+  max-width: 100%;
+  margin:15px;
+}
+
