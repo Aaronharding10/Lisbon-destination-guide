@@ -174,7 +174,7 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 <summary>style.css
 </summary>
 
-![CSS validation result](/assets/images/)
+![CSS validation result](/assets/images/css-valid.jpeg)
 </details>
 
 
@@ -183,6 +183,58 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 ### Lighthouse Report
 
 #### Mobile analysis
+<details>
+<summary>Home Page
+</summary>
+
+![Home lighthouse report](assets/images/home-mobile-lighthouse1.jpeg)
+</details>
+<details>
+<summary>See-and-do page
+</summary>
+
+![See-and-do lighthouse report](assets/images/see-and-do-mobilelighthouse.jpeg)
+</details>
+<details>
+<summary>Taste-Lisbon page
+</summary>
+
+![Taste-Lisbon lighthouse report](assets/images/taste-lisbon-lighthouse.jpeg)
+</details>
+<details>
+<summary>Contact page
+</summary>
+
+![Contact lighthouse report](assets/images/contact-lisbon-lighthouse.jpeg)
+</details>
+
+#### Desktop analysis
+<details>
+<summary>Home Page
+</summary>
+
+![Home Page lighthouse report](assets/images/desktop-home-lighthouse.jpeg)
+</details>
+<details>
+<summary>See-and-do page
+</summary>
+
+![see and do lighthouse report](assets/images/desktop-see-and-do-lighthouse.jpeg)
+</details>
+<details>
+<summary>Taste-Lisbon page
+</summary>
+
+![Taste Lisbon lighthouse report](assets/images/desktop-taste-lighthouse.jpeg)
+</details>
+<details>
+<summary>Contact page
+</summary>
+
+! [contact lighthouse report](assets/images/desktop-contact-lighthouse.jpeg)
+</details>
+
+
 
 
 
