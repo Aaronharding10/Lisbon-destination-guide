@@ -360,7 +360,6 @@ form {
     }
 }
 
-  @media screen and (max-width:600px) {
     @media screen and (max-width: 600px) {
       .contactText {
           font-size: 12px;
@@ -370,21 +369,16 @@ form {
           font-size: 18px;
       }
   }
- @media screen and (max-width:500px)
-{
-.imgHeader{
-  display:none;
-}
-.seeHeader{
-  display:none;
-}
-.tasteHeader{
-  display:none;
-}
-.contactHeader{
-  display:none;
-}
-.navbar ul{
+
+ @media screen and (max-width:500px) {
+  .imgHeader,
+  .seeHeader,
+  .tasteHeader,
+  .contactHeader {
+      display: none;
+  }
+
+.navbar ul {
   top:0;
   left:0;
   height:20vh;
@@ -399,74 +393,71 @@ form {
   text-overflow: inherit;
  
 }
-navbar li{
+navbar li {
   justify-content: space-evenly;
   margin-top:15px;
 }
 
- }
- .contactText{
-  font-size:10px;
- }
- .footer h4{
-  font-size:16px;
- }
- .alfamaContainer{
-  margin:15px;
- }
- .bairroContainer{
-  margin:15px;
- }
- .belemContainer{
-  margin:15px;
- }
- .baixaContainer{
-  margin:15px;
- }
- .chiadoContainer{
-  margin:15px;
- }
-.benContainer{
-  margin:15px;
-}
-.fadoContainer{
-  margin:15px;
-}
-.belemContainer{
-  margin:15px;
-}
-.jerContainer{
-  margin:15px;
-}
-.gloriaContainer{
-  margin:15px;
-}
-.pasteisContainer{
-  margin:15px;
-}
-.timeContainer{
-  margin:15px;
-}
-.mercadoContainer{
-  margin:15px;
-}
-.tapasContainer{
-  margin:15px;
-}
-.wineContainer{
-  margin:15px;
+ 
+.contactText {
+  font-size: 10px;
 }
 
-@media screen and (max-width: 470px){
-
-
-.navbar li{
-  justify-content: start;
+.footer h4 {
+  font-size: 16px;
 }
-.mediaOne p{
-  font-size: 12px;
+
+.alfamaContainer,
+.bairroContainer,
+.belemContainer,
+.baixaContainer,
+.chiadoContainer,
+.benContainer,
+.fadoContainer,
+.belContainer,
+.jerContainer,
+.gloriaContainer,
+.pasteisContainer,
+.timeContainer,
+.mercadoContainer,
+.tapasContainer,
+.wineContainer {
+  width: 100%;
 }
-.mediaTwo img{
-  max-width: 100%;
-  margin:15px;
+
+.alfamaImage img,
+.bairroImage img,
+.belemImage img,
+.baixaImage img,
+.chiadoImage img,
+.benImage img,
+.fadoImage img,
+.belImage img,
+.jerImage img,
+.gloriaImage img,
+.pasteisImage img,
+.timeImage img,
+.mercadoImage img,
+.tapasImage img,
+.wineImage img {
+  width: 100%;
+  height: auto;
+}
+
+.input-field {
+  width: 100%;
+}
+
+.message-box {
+  width: 100%;
+}
+
+.message-box form {
+  margin: 0;
+  padding: 10px;
+}
+
+.inputGroup {
+  width: 100%;
+}
 }
