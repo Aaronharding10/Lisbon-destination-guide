@@ -35,7 +35,6 @@ h3{
 }
 h4{
     font-family:eb garamond;
-    font-size: 30px;
     font-family:cursive;
     text-align:center;
     font-size: xx-large;
@@ -87,166 +86,93 @@ background-color: rgb(173, 114, 166);
     padding-top:10px;
   
 }
-.whyLisbon p{
+.whyLisbon p {
   font-size: 16px;
   text-align: center;
 }
 
-/* neighbourhood flex styling */
-
-.alfamaContainer{
+.alfamaContainer,
+.bairroContainer,
+.belemContainer,
+.baixaContainer,
+.chiadoContainer,
+.benContainer,
+.fadoContainer,
+.belContainer,
+.jerContainer,
+.gloriaContainer,
+.pasteisContainer,
+.timeContainer,
+.mercadoContainer,
+.tapasContainer,
+.wineContainer {
   margin: 10px auto;
   width: 90%;
   text-align: center;
 }
 
-.alfamaContent {
-  display:flex;
+.alfamaContent,
+.bairroContent,
+.belemContent,
+.baixaContent,
+.chiadoContent,
+.benContent,
+.fadoContent,
+.belContent,
+.jerContent,
+.gloriaContent,
+.pasteisContent,
+.timeContent,
+.mercadoContent,
+.tapasContent,
+.wineContent {
+  display: flex;
   flex-direction: column;
 }
 
-.alfamaImage {
-  flex: 0 0 auto;
-  margin-right: 10px;
-}
-.alfamaText {
-flex:1; 
-}
-.alfamaImage img {
-  width:450px;
-  height:300px;
-  border:2px solid black;
-  border-radius: 10px 10px 10px 10px;
-  margin-bottom:10px;
-}
-.alfamaText p{
-  font-size: 18px;
-}
-.h4{
-  font-size: 25px;
-}
-.bairroContainer{
-  margin:10px auto;
-  width:90%;
-  text-align: center;
-}
-.bairroContent{
-  display:flex;
-  flex-direction:column;
+.alfamaImage img,
+.bairroImage img,
+.belemImage img,
+.baixaImage img,
+.chiadoImage img,
+.benImage img,
+.fadoImage img,
+.belImage img,
+.jerImage img,
+.gloriaImage img,
+.pasteisImage img,
+.timeImage img,
+.mercadoImage img,
+.tapasImage img,
+.wineImage img {
+  width: 450px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
-.bairroImage img{
-  width:450px;
-  height:300px;
-  border:2px solid black;
-  border-radius: 10px 10px 10px 10px;
-  margin-bottom:15px;
-}
-.bairroText{
-  flex:1; 
- 
-}
-.bairroImage{
-  flex: 0 0 auto;
-  margin-right: 10px;
-}
-.bairroText p{
+.alfamaText p,
+.bairroText p,
+.belemText p,
+.baixaText p,
+.chiadoText p,
+.benText p,
+.fadoText p,
+.belText p,
+.jerText p,
+.gloriaText p,
+.pasteisText p,
+.timeText p,
+.mercadoText p,
+.tapasText p,
+.wineText p {
   font-size: 18px;
 }
 
-.h4{
+.h4 {
   font-size: 25px;
 }
-.belemContainer{
-  margin:10px auto;
-  width:90%;
-  text-align: center;
-}
-.belemContent{
-  display:flex;
-  flex-direction:column;
-}
-.belemImage img{
-  width:450px;
-  height:300px;
-  border:2px solid black;
-  border-radius: 10px 10px 10px 10px;
-  margin-bottom:15px;
-}
-.belemText{
-  flex:1;
-}
-.belemImage{
-  flex: 0 0 auto;
-  margin-right: 10px;
-}
-.belemText p{
-  font-size: 18px;
-}
-.h4{
-  font-size: 25px;
-}
-.baixaContainer{
-  margin:10px auto;
-  width:90%;
-  text-align: center;
-}
-.baixaContent{
-  display:flex;
-  flex-direction:column;
-}
-.baixaImage img{
-  width:450px;
-  height:300px;
-  border:2px solid black;
-  border-radius: 10px 10px 10px 10px;
-  margin-bottom:15px;
-}
-.baixaText{
-  flex:1;
-}
-.baixaImage{
-  flex: 0 0 auto;
-  margin-right: 10px;
-}
-.baixaText p{
-  font-size: 18px; 
-}
-
-.h4{
-  font-size: 25px;
-}
-.chiadoContainer{
-  margin:10px auto;
-  width:90%;
-  text-align: center;
-}
-.chiadoContent{
- display:flex; 
- flex-direction: column;
-}
-.chiadoImage img{
-  width:450px;
-  height:300px;
-  border:2px solid black;
-  border-radius: 10px 10px 10px 10px;
-  margin-bottom:15px;
-}
-.chaidoText{
-  flex:1;
-}
-.chiadoImage{
-  flex: 0 0 auto;
-  margin-right: 10px;
-}
-.chiadoText p{
-  font-size: 18px; 
-}
-
-.h4{
-  font-size: 25px;
-}
-  /*see&do header*/
   
   .seeHeader{
     background-image:url(../images/fado.jpeg);
@@ -865,4 +791,3 @@ navbar li{
   max-width: 100%;
   margin:15px;
 }
-
