@@ -1,33 +1,33 @@
-header{
+header {
     color:white;
     text-align: center;
     font-family: sans-serif;
     font-size:x-large;
 }
-body{
+body {
   background:url(../images/blue-back.jpeg) center center / cover no-repeat fixed;
 
 }
-h1{
+h1 {
     font-family: fantasy;
     font-size:36px;
     color:white;
    
 }
-h2{
+h2 {
     font-family: fantasy;
     font-size:22px;
     color:white;
     margin-top:10px;
 }
-h3{
+h3 {
     color:rgb(15, 14, 14);
     font-family:fantasy;
     font-size:28px;
     text-align:center;   
 }
 
-#h3why{
+#h3why {
 
     font-family: fantasy;
     color:rgb(13, 13, 13);
@@ -45,7 +45,7 @@ h4{
 }
 
 
-.navbar ul{
+.navbar ul {
     background-color:rgb(173, 114, 166);
     list-style-type: none;
     flex-direction: row;
@@ -59,7 +59,7 @@ h4{
 }
 /*navbar styling*/
 
-.navbar a{
+.navbar a {
     color:rgb(251, 251, 251);
     text-decoration:none;
     display:inline-block;
@@ -70,13 +70,13 @@ h4{
    
    
 }
-.navbar a:hover{
+.navbar a:hover {
 background-color: rgb(173, 114, 166);
 }
 
 /*homepage styling*/
 
-.imgHeader{
+.imgHeader {
     background-image:url(../images/lisbonnight.jpeg); 
     height:330px;
     background-repeat: no-repeat;
@@ -204,7 +204,7 @@ background-color: rgb(173, 114, 166);
     padding-bottom: 100px;
 }
 
-.galleryContainer{
+.galleryContainer {
   padding: 40px 5%;
   background-color: rgb(0, 0, 0);
 }
@@ -212,29 +212,29 @@ background-color: rgb(173, 114, 166);
 .ul{
   list-style-type: none;
 }
-.imagegallery{
+.imagegallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
   
 }
-.imagegallery > li{
+.imagegallery > li {
   flex-basis: 350px; 
   position: relative;
   cursor: pointer;
 }
-.imagegallery::after{
+.imagegallery::after {
   flex-basis: 350px;
 }
-.imagegallery li img{
+.imagegallery li img {
   object-fit: cover;
   max-width: 100%;
   height: auto;
   vertical-align: middle;
   border-radius: 5px;
 }
-.overlay{
+.overlay {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -259,7 +259,7 @@ background-color: rgb(173, 114, 166);
 
 /*footer styling*/
 
-.footer{ 
+.footer { 
   display:flex;
   background-image: url(../images/footerimage.webp);
   background-repeat: no-repeat;
@@ -270,11 +270,11 @@ background-color: rgb(173, 114, 166);
   flex-direction: row;
   padding:10px;
 }
-.footer h4{
+.footer h4 {
   font-size:22px;
 }
 
-.contactText{
+.contactText {
   list-style-type:initial;
   font-size: 18px;
   color:white;
@@ -285,11 +285,11 @@ background-color: rgb(173, 114, 166);
   color:white;
   margin:0;
 }
-.followUs{
+.followUs {
   margin-top:50px;
   padding:10px;
 }
-.footer i{
+.footer i {
   color:white;
   margin:10px 10px;
 }
@@ -297,18 +297,17 @@ background-color: rgb(173, 114, 166);
 /*contact page styling*/
 
 
-
-.message-box{
+.message-box {
   width:500px;
   top:50%;
   left:50%;
   transform:translate(-50%,-50%);
   background-color: white;
 }
-form{
+form {
   margin:35px;
 }
-.inputGroup{
+.inputGroup {
   display:flex;
   flex-direction:column;
   justify-content: center;
@@ -317,7 +316,7 @@ form{
   margin:auto;
 
 }
-.input-field{
+.input-field {
   width:300px;
   height:40px;
   margin-top:20px;
@@ -328,11 +327,11 @@ form{
   outline:none;
 }
 
-.textarea-field{
+.textarea-field {
   height:150px;
   padding-top:10px;
 }
-.btn{
+.btn {
   border-radius: 20px;
   margin-top: 18px;
   padding:10px;
@@ -352,21 +351,25 @@ form{
 
 
 @media screen and (max-width: 800px) {
-  .contactText{
-    font-size:14px;
-  }
-  .footer h4{
-    font-size:20px;
-  }
-  
-  @media screen and (max-width:600px) {
-.contactText{
-  font-size:12px;
-}
-.footer h4{
-  font-size:18px
+  .contactText {
+    font-size: 14px;
 }
 
+.footer h4 {
+    font-size: 20px;
+    }
+}
+
+  @media screen and (max-width:600px) {
+    @media screen and (max-width: 600px) {
+      .contactText {
+          font-size: 12px;
+      }
+  
+      .footer h4 {
+          font-size: 18px;
+      }
+  }
  @media screen and (max-width:500px)
 {
 .imgHeader{
