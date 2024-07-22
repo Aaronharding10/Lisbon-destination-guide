@@ -461,10 +461,23 @@ navbar li {
   width: 100%;
 }
 }
+
 @media screen and (max-width:475px) {
-  .navbar ul {
-    margin-right: 50px;
-    max-width: 300%;
-    text-align: center;
-  }
+.navbar ul {
+  top:0;
+  left:0;
+  height:20vh;
+  width:100%;
+  max-width:400px;
+  padding:40px 0;
+  display:block;
+  text-align:center;
+  justify-content: flex-start;
+  border-top:20px;
+  text-overflow: inherit;
+ 
+}
+navbar li {
+  justify-content: space-evenly;
+  margin-top:15px;
 }
