@@ -91,7 +91,7 @@ Users can reach out to obtain further information about the city and the main el
     * It also hightlights the reasons for visiting each area. 
    
 
-![Visit lisbon](assets/images/mainheader.jpeg)   
+![Visit lisbon](assets/images/readme-main-header.jpeg)   
 
 * Section two, See & Do
     * This section lists the most famous attractions and sights and details the reason for visiting each. 
@@ -104,7 +104,7 @@ Users can reach out to obtain further information about the city and the main el
     * There is also a gallery below to further guide and support the user. 
      
 
-![Taste Lisbon](assets/images/tasteheader.jpeg)
+![Taste Lisbon](assets/images/readme-taste-header.jpeg)
 
 * Section four, Contact
     * The contact section allows the user to reach out for further information
