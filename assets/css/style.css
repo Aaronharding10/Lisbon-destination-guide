@@ -343,6 +343,13 @@ form {
   justify-content: center;
 }
 
+input:invalid, textarea:invalid {
+  border: 2px solid rgb(205, 31, 31);
+}
+
+input:valid, textarea:valid {
+  border: 2px solid rgb(5, 172, 5);
+}
 
 
 
@@ -396,6 +403,10 @@ form {
 navbar li {
   justify-content: space-evenly;
   margin-top:15px;
+}
+
+ul.imagegallery {
+  padding-right: 20px;
 }
 
 .galleryContainer {
