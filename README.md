@@ -8,7 +8,7 @@ There are also links to the social media platorms, an address, email address and
 
 ![am i responsive](assets/images/responsive.jpeg)
 
-[View visit Lisbon live project here] (https://github.com/Aaronharding10/Lisbon-destination-guide)
+[View visit Lisbon live project here] (https://8000-aaronhardin-lisbondesti-9p4u5alad2r.ws.codeinstitute-ide.net/index.html)
 - - -
 
 ## Table of contents
@@ -239,80 +239,12 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#### Desktop analysis
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Deployment and local development
 
 ### GitHub Pages
 
 GitHub Pages used to deploy live version of the website.
-1. Log in to GitHub and locate [GitHub Repository Lunar Escape](https://github.com/Aaronharding10/Lisbon-destination-guide)
+1. Log in to GitHub and locate [GitHub Lisbon destination guide](https://github.com/Aaronharding10/Lisbon-destination-guide)
 2. At the top of the Repository(not the main navigation) locate "Settings" button on the menu.
 3. Scroll down the Settings page until you locate "GitHub Pages".
 4. Under "Source", click the dropdown menu "None" and select "Main" and click "Save".
