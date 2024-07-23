@@ -97,7 +97,7 @@ Users can reach out to obtain further information about the city and the main el
     * This section lists the most famous attractions and sights and details the reason for visiting each. 
     * It also consists of a gallery below the attractions with supporting images to each which is valuable as it gives the user further insight to each attraction.
 
-![See & Do](assets/images/readme-seedo.jpeg.jpeg)
+![See & Do](assets/images/lighthouse-seedo3.jpeg)
 
 * Section three, Taste Lisbon
     * This section outlines the best places to visit for food and drink lovers and also the food and drink items unique to Lisbon.
