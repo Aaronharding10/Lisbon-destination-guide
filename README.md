@@ -8,7 +8,7 @@ There are also links to the social media platorms, an address, email address and
 
 ![am i responsive](assets/images/responsive.jpeg)
 
-[View visit Lisbon live project here] (https://8000-aaronhardin-lisbondesti-9p4u5alad2r.ws.codeinstitute-ide.net/index.html)
+[View visit Lisbon live project here] (https://aaronharding10.github.io/Lisbon-destination-guide/)
 - - -
 
 ## Table of contents
@@ -233,9 +233,6 @@ The W3C Markup Validator and W3C CSS Validator services were used to validate ev
 
 ![contact lighthouse report](assets/images/lighthouse-contact-desktop2.jpeg)
 </details>
-
-
-
 
 
 
