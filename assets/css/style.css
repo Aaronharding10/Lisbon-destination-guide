@@ -496,4 +496,19 @@ navbar li {
   justify-content: space-evenly;
   margin-top:15px;
 }
+
+@media screen and (max-width:375px) {
+  .navbar ul {
+    top:0;
+    left:0;
+    height:20vh;
+    width:80%;
+    max-width:400px;
+    padding-bottom:50px;
+    display:block;
+    text-align:center;
+    justify-content: flex-start;
+    border-top:20px;
+    text-overflow: inherit;
+    margin-right: 20px;
 }
