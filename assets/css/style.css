@@ -391,7 +391,7 @@ input:valid, textarea:valid {
     height: 20vh;
     width: 100%;
     max-width: 400px;
-    margin-left: 40px; 
+    margin-left: 20px; 
     padding-bottom: 40px;
     display: block;
     text-align: center;
@@ -489,7 +489,7 @@ ul.imagegallery {
   justify-content: flex-start;
   border-top:20px;
   text-overflow: inherit;
-  margin-right: 30px;
+  margin-left: 20px;
  
 }
 navbar li {
