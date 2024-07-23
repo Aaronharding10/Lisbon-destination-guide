@@ -390,7 +390,8 @@ input:valid, textarea:valid {
     left: -10px; 
     height: 20vh;
     width: 100%;
-    max-width: 400px; 
+    max-width: 400px;
+    margin-left: 40px; 
     padding-bottom: 40px;
     display: block;
     text-align: center;
