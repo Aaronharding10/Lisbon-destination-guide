@@ -390,7 +390,7 @@ input:valid, textarea:valid {
     height:150px;
     width: 100%;
     max-width: 400px;
-    margin-left: 10px; 
+    margin-left: 25px; 
     padding-bottom: 50px;
     display: block;
     text-align: center;
@@ -487,7 +487,7 @@ ul.imagegallery {
   justify-content: flex-start;
   border-top: 20px;
   text-overflow: inherit;
-  margin-left: 30px;
+  margin-left: 25px;
   font-size: 12px;
   padding-bottom: 100px;
   margin-top: -10px;
@@ -509,7 +509,6 @@ ul.imagegallery {
     justify-content: flex-start;
     border-top: 20px;
     text-overflow: inherit;
-    margin-right: 30px;
     font-size: 12px;
     padding-bottom: 100px;
     margin-top: -10px;
