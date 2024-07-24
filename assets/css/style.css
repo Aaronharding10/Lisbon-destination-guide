@@ -516,4 +516,8 @@ ul.imagegallery {
     padding-bottom: 100px;
     margin-top: -10px;
 }
+
+.navbar li {
+  justify-content: space-evenly;
+ }
 }
