@@ -6,7 +6,7 @@ It also provides a contact page through which people can reach out and sign up t
 
 There are also links to the social media platorms, an address, email address and phone number. 
 
-![am i responsive](assets/images/responsive.jpeg)
+![am i responsive](assets/images/lighthouse-amiresp.jpeg)
 
 [View visit Lisbon live project here] (https://aaronharding10.github.io/Lisbon-destination-guide/)
 - - -
