@@ -397,6 +397,7 @@ input:valid, textarea:valid {
     justify-content: flex-start;
     border-top: 20px;
     text-overflow: inherit;
+    font-size: 12px;
   }
   
 navbar li {
@@ -488,6 +489,7 @@ ul.imagegallery {
   border-top: 20px;
   text-overflow: inherit;
   margin-left: 30px;
+  font-size: 12px;
  
 }
 .navbar li {
@@ -508,5 +510,6 @@ ul.imagegallery {
     border-top: 20px;
     text-overflow: inherit;
     margin-right: 30px;
+    font-size: 12px;
 }
 }
