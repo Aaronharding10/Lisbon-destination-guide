@@ -482,7 +482,6 @@ ul.imagegallery {
   height:20vh;
   width:80%;
   max-width:400px;
-  padding-bottom:50px;
   display:block;
   text-align:center;
   justify-content: flex-start;
@@ -503,7 +502,6 @@ ul.imagegallery {
     height:20vh;
     width:80%;
     max-width:400px;
-    padding-bottom:50px;
     display:block;
     text-align:center;
     justify-content: flex-start;
